@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prueba Tintín antes que nadie</title>
+<meta name="description" content="Únete a la prueba de Tintín: la app que te dice en voz alta cuánta plata te llegó por Nequi o Daviplata. Gratis.">
+<meta property="og:title" content="Prueba Tintín antes que nadie">
+<meta property="og:description" content="La app que te dice en voz alta cuánta plata te llegó por Nequi o Daviplata. Gratis.">
+<style>
+  :root { --ink:#10231B; --muted:#55645C; --bg:#FBF7EE; --card:#FFFFFF; --green:#0E7A55; --deep:#0A5A3F; --bright:#19B07A; --gold:#F2B233; --goldl:#FFE38A; --line:#E4DDCB; --soft:#E3F3EA; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#ECF1EE; --muted:#A3B0A9; --bg:#0F1412; --card:#19201C; --green:#4CC795; --line:#33403A; --soft:#1B3A2D; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { background:linear-gradient(135deg,var(--bright),#0E7A55 55%,var(--deep)); color:#fff; padding:40px 16px 72px; text-align:center; position:relative; overflow:hidden; }
+  header::after { content:""; position:absolute; right:-120px; top:-120px; width:380px; height:380px; border-radius:50%; border:28px solid rgba(255,255,255,.07); box-shadow:0 0 0 60px rgba(255,255,255,.04); }
+  .brand { font-weight:800; font-size:44px; letter-spacing:-1.5px; line-height:1; } .brand b { color:var(--goldl); }
+  header h1 { font-size:24px; margin:14px 0 6px; } header p { margin:0 auto; max-width:520px; opacity:.92; }
+  main { max-width:620px; margin:-44px auto 40px; padding:0 16px; position:relative; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:24px; padding:22px; margin-bottom:16px; }
+  .step { display:flex; gap:14px; align-items:flex-start; }
+  .num { flex:0 0 40px; height:40px; border-radius:50%; background:var(--green); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:19px; }
+  .step h2 { margin:4px 0 4px; font-size:19px; } .step p { margin:0 0 12px; color:var(--muted); font-size:15px; }
+  .btn { display:block; text-align:center; text-decoration:none; font-weight:800; font-size:18px; padding:16px 18px; border-radius:16px; background:var(--green); color:#fff; }
+  .btn.gold { background:var(--gold); color:#2A1D00; }
+  .btn:active { transform:scale(.98); }
+  .note { background:var(--soft); border-radius:16px; padding:14px 16px; font-size:15px; }
+  ul { padding-left:20px; margin:8px 0; } li { margin:4px 0; }
+  h3 { margin:0 0 8px; font-size:18px; }
+  details { border-top:1px solid var(--line); padding:12px 0; } details:first-of-type { border-top:0; }
+  summary { cursor:pointer; font-weight:700; }
+  details p { margin:8px 0 0; color:var(--muted); font-size:15px; }
+  a { color:var(--green); }
+  footer { text-align:center; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">tin<b>tín</b></div>
+  <h1>¿Ya pagó? Te lo digo en voz alta.</h1>
+  <p>Ayúdanos a lanzar Tintín en Google Play: necesitamos 12 personas que la prueben 14 días. Es gratis y toma 2 minutos.</p>
+</header>
+<main>
+  <div class="card">
+    <div class="step">
+      <div class="num">1</div>
+      <div style="flex:1">
+        <h2>Únete al grupo de prueba</h2>
+        <p>Toca el botón y luego <strong>"Unirse al grupo"</strong>. Usa el <strong>mismo Gmail</strong> que tienes en la Play Store del celular.</p>
+        <a class="btn" href="https://groups.google.com/g/tintin-testers" target="_blank" rel="noopener">Unirme al grupo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="step">
+      <div class="num">2</div>
+      <div style="flex:1">
+        <h2>Activa la prueba en Google Play</h2>
+        <p>Toca <strong>"Convertirme en verificador"</strong> (o "Become a tester").</p>
+        <a class="btn" href="https://play.google.com/apps/testing/com.metatech.tintin" target="_blank" rel="noopener">Activar la prueba</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="step">
+      <div class="num">3</div>
+      <div style="flex:1">
+        <h2>Instala Tintín</h2>
+        <p>Descárgala desde la Play Store y sigue el paso a paso inicial.</p>
+        <a class="btn gold" href="https://play.google.com/store/apps/details?id=com.metatech.tintin" target="_blank" rel="noopener">Descargar Tintín</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card note">
+    <h3>🙏 Lo único que te pedimos</h3>
+    <ul>
+      <li><strong>Déjala instalada 14 días</strong> (no la desinstales ni salgas del grupo).</li>
+      <li>Ábrela de vez en cuando y cuéntanos qué te parece.</li>
+      <li>Si algo falla, escríbenos a <a href="mailto:metatech000@gmail.com?subject=Prueba%20de%20Tint%C3%ADn">metatech000@gmail.com</a> o usa "Enviar comentarios" en la ficha de la Play Store.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Preguntas</h3>
+    <details>
+      <summary>¿Cuesta algo?</summary>
+      <p>No. Tintín es gratis, sin publicidad y sin cuentas.</p>
+    </details>
+    <details>
+      <summary>¿Necesito Nequi o Daviplata?</summary>
+      <p>Para que te avise pagos reales, sí. Si no las tienes, igual puedes probar la voz, los temas y los widgets desde la app.</p>
+    </details>
+    <details>
+      <summary>¿Qué ve Tintín de mi celular?</summary>
+      <p>Solo las notificaciones de Nequi y Daviplata, para decirte cuánta plata llegó. No tiene internet: nada sale de tu celular. <a href="privacidad.html">Política de privacidad</a>.</p>
+    </details>
+    <details>
+      <summary>En el paso 3 dice que la app no está disponible</summary>
+      <p>Espera unos minutos después de los pasos 1 y 2 y vuelve a abrir el enlace. Revisa que estés usando el mismo Gmail en el grupo y en la Play Store.</p>
+    </details>
+    <details>
+      <summary>¿Por qué 14 días?</summary>
+      <p>Google pide que las apps nuevas tengan al menos 12 personas probándolas 14 días seguidos antes de publicarlas para todos.</p>
+    </details>
+  </div>
+
+  <footer>Desarrollado por metatech_labs · <a href="./">Tintín</a> · <a href="privacidad.html">Privacidad</a></footer>
+</main>
+</body>
+</html>
