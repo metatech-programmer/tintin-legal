@@ -29,7 +29,7 @@
 <main>
 <div class="card">
 <h1>Política de privacidad</h1>
-<p class="meta">Vigente desde el 18 de octubre de 2026 · Aplicación: Tintín (com.metatech.tintin)</p>
+<p class="meta">Vigente desde el 19 de octubre de 2026 · Aplicación: Tintín (com.metatech.tintin)</p>
 
 <div class="tldr"><strong>En resumen</strong>
 <ul>
@@ -37,6 +37,7 @@
   <li>Solo lee las notificaciones de <strong>Nequi y Daviplata</strong> (y, si tú lo activas, ciertos SMS) para anunciarte los pagos recibidos.</li>
   <li>Todo se guarda <strong>únicamente en tu celular</strong> y puedes borrarlo cuando quieras.</li>
   <li>No hay cuentas, ni publicidad, ni rastreo, ni venta de datos.</li>
+  <li>Si usas "Leer capturas", el texto de tus capturas se lee <strong>en tu celular</strong> y las imágenes no se guardan ni se envían.</li>
 </ul></div>
 
 <h2>1. Quiénes somos</h2>
@@ -48,6 +49,7 @@
 <tr><td>Contenido de las notificaciones de Nequi y Daviplata (título y texto: monto, nombre de quien envía, canal como QR o Bre-B)</td><td>Detectar cuándo te llegó plata, decirlo en voz alta y mostrarte los movimientos del día.</td></tr>
 <tr><td>SMS de números cortos oficiales que mencionen Nequi o Daviplata (solo si activas esta opción, apagada por defecto)</td><td>Lo mismo que lo anterior, cuando el aviso llega por SMS.</td></tr>
 <tr><td>Formatos de aviso que tú le enseñas a la app ("sí era plata" / "no era plata")</td><td>Reconocer esos avisos en el futuro.</td></tr>
+<tr><td>Capturas de pantalla que tú escojas o compartas con Tintín (opcional)</td><td>Leer los montos de tu historial de movimientos y completar los pagos que llegaron sin monto. Las imágenes se procesan en el celular y no se guardan: solo se guardan los montos que tú confirmas.</td></tr>
 <tr><td>Tus ajustes (voz, colores, horarios de silencio, etc.)</td><td>Que la app funcione como prefieres.</td></tr>
 </table>
 <p>Las notificaciones de las demás apps de tu celular <strong>se ignoran</strong>: no se leen, no se guardan y no se analizan.</p>
@@ -56,7 +58,8 @@
 <p>Todo se guarda en una base de datos privada dentro de tu celular, a la que otras apps no pueden acceder. Tintín <strong>no hace copias de seguridad en la nube</strong> de esta información. El registro de avisos leídos guarda como máximo los últimos 200.</p>
 
 <h2>4. Con quién se comparte</h2>
-<p>Con nadie. La app no tiene el permiso de internet de Android, así que técnicamente no puede enviar datos a ningún lado. No usamos herramientas de analítica, publicidad ni seguimiento. La única forma en que un dato sale de tu celular es si <strong>tú</strong> decides compartir el reporte de "Avisos leídos" (por ejemplo, por WhatsApp o correo) usando el botón Compartir.</p>
+<p>metatech_labs no recibe ninguno de tus datos. La app no tiene el permiso de internet de Android, así que técnicamente no puede enviar datos a ningún lado. No usamos herramientas de analítica, publicidad ni seguimiento. La única forma en que un dato sale de tu celular es si <strong>tú</strong> decides compartir el reporte de "Avisos leídos" (por ejemplo, por WhatsApp o correo) usando el botón Compartir.</p>
+<p><strong>Lector de capturas:</strong> para leer el texto de las capturas, Tintín usa el reconocimiento de texto de Google (ML Kit), que funciona dentro de tu celular a través de Google Play Services. Las imágenes y su contenido no se envían a internet. Según Google, este componente puede enviar a Google datos técnicos de diagnóstico y uso (por ejemplo, el modelo del celular y si el reconocimiento funcionó), que no incluyen tus imágenes ni tus pagos. Más información en la <a href="https://developers.google.com/ml-kit/android-data-disclosure">divulgación de datos de ML Kit</a> y la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
 
 <h2>5. Permisos que pide la app</h2>
 <table>
@@ -64,6 +67,7 @@
 <tr><td><strong>Mostrar notificaciones</strong></td><td>La notificación fija "Escuchando pagos", para que sepas que la app está funcionando.</td></tr>
 <tr><td><strong>Servicio en primer plano</strong></td><td>Mantener la app activa para avisarte al instante, aunque no la tengas abierta.</td></tr>
 <tr><td><strong>Iniciar al encender</strong></td><td>Volver a escuchar automáticamente después de reiniciar el celular.</td></tr>
+<tr><td><strong>Fotos (selector del sistema)</strong></td><td>Solo cuando tú escoges capturas para leer. La app no tiene acceso a tu galería: solo a las imágenes que eliges.</td></tr>
 </table>
 
 <h2>6. Tus derechos y control</h2>
@@ -79,7 +83,7 @@
 <p>Tintín está pensada para adultos que administran un negocio o sus finanzas. No está dirigida a menores de edad.</p>
 
 <h2>8. Seguridad</h2>
-<p>La información queda protegida por el aislamiento de apps de Android y no se incluye en copias de seguridad. En la pantalla de bloqueo, la notificación fija no muestra montos.</p>
+<p>La información queda protegida por el aislamiento de apps de Android y no se incluye en copias de seguridad. En la pantalla de bloqueo, la notificación fija no muestra montos. Los widgets (si los agregas) muestran tus pagos en la pantalla de inicio de tu celular; no se pueden poner en la pantalla de bloqueo.</p>
 
 <h2>9. Marcas</h2>
 <p>Nequi, Daviplata, Bancolombia, Davivienda y Bre-B son marcas de sus respectivos dueños. Tintín es una app independiente: no está afiliada, patrocinada ni aprobada por ellos, no mueve dinero y no accede a tus cuentas.</p>
@@ -88,7 +92,7 @@
 <p>Si cambiamos algo importante, actualizaremos esta página y la fecha de vigencia, y lo contaremos en las notas de la versión de la app.</p>
 
 <h2>English summary</h2>
-<p>Tintín has no internet access and never sends data anywhere. It reads only Nequi and Daviplata notifications (and, if you opt in, official short-code SMS) to announce received payments aloud. All data stays on your device, is excluded from cloud backups, and can be deleted at any time from the app. No accounts, ads, analytics or tracking. Contact: <a href="mailto:metatech000@gmail.com">metatech000@gmail.com</a>.</p>
+<p>Tintín has no internet access and metatech_labs never receives your data. It reads only Nequi and Daviplata notifications (and, if you opt in, official short-code SMS) to announce received payments aloud. All data stays on your device, is excluded from cloud backups, and can be deleted at any time from the app. No accounts, ads, analytics or tracking. The optional screenshot reader uses Google's on-device ML Kit text recognition (via Google Play services); images are not uploaded or stored, but Google may receive technical diagnostic data as described in its ML Kit data disclosure. Contact: <a href="mailto:metatech000@gmail.com">metatech000@gmail.com</a>.</p>
 </div>
 <footer>© 2026 metatech_labs · Tintín</footer>
 </main>
